@@ -15,7 +15,7 @@ Savā projektā es izmantoju tikai Selenium bibliotēku, jo tā var izmantot pā
  ### Galīgs rezultāts izskatas šādi:![image](https://github.com/anastasijaskogoreva/project/assets/144266164/8e703e83-059a-4111-a68f-42c34a0841c7)
 
 Ja uzsakt kodu, tad atverās Chrome un ieladēs saite ar sludinajumiem un lietotājs var izvelēt sav auto jau ar gataviem datiem un katra reize augšā jau būs jaunie sludiajumi. Ta var izdarīt netikai mašīnu izvele gadijumā, net piemēram dzivokli un tt.
-Ja kad pēc tam draudzene grib mainīt mašinas marku, tad ar funkciju ***inspect*** var atrast _id_, vai _class_  un mainīt to 16.rindā (find=driver.find_element(By.ID, "ahc_166") un to arī var izdarīt ar summu 24. un 26. rindās.
+Ja kad pēc tam draudzene grib mainīt mašinas marku, tad ar funkciju ***inspect*** var atrast _id_, vai _class_  un mainīt to 16.rindā (find=driver.find_element(By.ID, "ahc_166") un to arī var izdarīt ar summu 24.(find.send_keys("1000")) un 26. rindās(find.send_keys("9000")).
  
 
 
