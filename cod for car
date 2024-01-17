@@ -1,0 +1,38 @@
+import selenium
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+import time
+from openpyxl import Workbook, load_workbook 
+
+service = Service()
+option = webdriver.ChromeOptions()
+driver = webdriver.Chrome(service=service, options=option)
+
+url = "https://www.ss.lv/lv/transport/cars/"
+driver.get(url)
+time.sleep(2)
+
+find=driver.find_element(By.ID, "ahc_166")
+find.click()
+
+find=driver.find_element(By.CLASS_NAME, "a19")
+find.click()
+time.sleep(2)
+
+find=driver.find_element(By.ID,"f_o_8_min")
+find.send_keys("1000")
+find=driver.find_element(By.ID,"f_o_8_max")
+find.send_keys("9000")
+time.sleep(2)
+
+find=driver.find_element(By.CLASS_NAME, "b.s12")
+find.click()
+time.sleep(2)
+
+find=driver.find_element(By.ID, "tr_53163732")
+find.click()
+time.sleep(2)
+
+
+input()
