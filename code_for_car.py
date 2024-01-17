@@ -17,16 +17,16 @@ find.click()
 
 find=driver.find_element(By.CLASS_NAME, "a19")  # jauni sludinajumi
 find.click()
-time.sleep(2)
+time.sleep(1)
 
 find=driver.find_element(By.ID,"f_o_8_min")  # min cena
 find.send_keys("1000")  # kāda min cena
 find=driver.find_element(By.ID,"f_o_8_max")  # max cena
 find.send_keys("9000")  # kāda max cena
-time.sleep(2)
+time.sleep(1)
 
 find=driver.find_element(By.CLASS_NAME, "b.s12") # meklēt 
 find.click()
-time.sleep(2)
+time.sleep(1)
 
 input()
