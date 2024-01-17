@@ -8,5 +8,9 @@
 ## Python bibliotēkas
 Savā projektā es izmantoju tikai Selenium bibliotēku, jo tā var izmantot pārlūkprogrammās - Chrome, Firefox, Opera un citās.Lai to izmantot, vispirms bija to uzintalet. ![image](https://github.com/anastasijaskogoreva/project/assets/144266164/d04c229f-e55c-4f2f-83a1-e523fc947967)
  Lai uzzinat kā izmantot biblioteku, es paskatijos video, kas bija ierakstīt 5.lekcijas  laikā (https://www.youtube.com/watch?v=t0PBBPuPgaw), ka arī internet resursi (https://selenium-python.readthedocs.io/).
+ ## Programmatūras izmantošanas metodes apraksts
+ 
+
+
 
    
